@@ -15,6 +15,9 @@ package com.idwa.ds.disa.vo
 		 * ...
 		 * */
 		public var status:int;
-		public var fecha:Date;		
+		public var fecha:Date;	
+		public var descripcion:String;
+		public var refacciones:String;
+		public var presupuesto:Number;
 	}	
 }
