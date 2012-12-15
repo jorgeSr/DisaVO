@@ -8,6 +8,8 @@ package com.idwa.ds.disa.vo
 		public var equipoId:String;
 		public var clienteId:int;
 		public var tecnicoId:int;
+		public var recibeId:int;
+		public var sucursalId:int;
 		public var statusId:int;		
 		/**
 		 * E:'Garantia Extendida'

@@ -1,5 +1,7 @@
 package com.idwa.ds.disa.vo
 {
+	[RemoteClass(alias="Status")]
+	[Bindable]
 	public class Status
 	{
 		//PK
