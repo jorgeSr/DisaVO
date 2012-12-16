@@ -11,10 +11,15 @@ package com.idwa.ds.disa.vo
 		//FK
 		public var usuarioId:String;
 		/**
-		 * 1: status 1
-		 * 2: status 2
-		 * 2: status 2
-		 * ...
+		 * RECI: Recibido
+		 * DIAG: Diagnosticado
+		 * PREP: Presupuestado
+		 * EREF: En Espera de Refacciones
+		 * RREF: Refacciones Recibidas
+		 * ACAL: Aprovado por Calidad
+		 * RCAL: Rechazado por Calidad
+		 * LREC: Listo pata Recolección
+		 * TERM: Terminado
 		 * */
 		public var status:int;
 		public var fecha:Date;	
