@@ -12,7 +12,7 @@ package com.idwa.ds.disa.vo
 		 * 	1:Mostrador,
 		 * 	2:Tecnico,
 		 *	3:Calidad,
-		 *	4:Usuario
+		 *	4:Cliente
 		 * }
 		 * */
 		public var tipo:int;

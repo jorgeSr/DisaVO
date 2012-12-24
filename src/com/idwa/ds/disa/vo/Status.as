@@ -21,7 +21,7 @@ package com.idwa.ds.disa.vo
 		 * LREC: Listo pata Recolección
 		 * TERM: Terminado
 		 * */
-		public var status:int;
+		public var status:String;
 		public var fecha:Date;	
 		public var descripcion:String;
 		public var refacciones:String;

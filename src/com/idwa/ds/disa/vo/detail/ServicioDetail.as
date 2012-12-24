@@ -15,6 +15,7 @@ package com.idwa.ds.disa.vo.detail
 		public var tecnico:User;
 		public var recibe:User;
 		public var sucursal:Sucursal;
-		public var status:Status;		
+		public var status:Status;	
+
 	}
 }
