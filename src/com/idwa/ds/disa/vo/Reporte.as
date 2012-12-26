@@ -1,5 +1,7 @@
 package com.idwa.ds.disa.vo
 {
+	[RemoteClass(alias="Reporte")]
+	[Bindable]
 	public class Reporte
 	{
 		//PK
@@ -11,8 +13,7 @@ package com.idwa.ds.disa.vo
 		//FK - ( the current status on creation )
 		public var statusId:int;
 		public var fecha:Date;
+		public var titulo:String;
 		public var descripcion:String;
-		//Default Null
-		public var resolucion:String;
 	}
 }
