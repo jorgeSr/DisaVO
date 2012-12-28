@@ -1,5 +1,7 @@
 package com.idwa.ds.disa.vo
 {
+	[RemoteClass(alias="EquipoUbicacion")]
+	[Bindable]
 	public class EquipoUbicacion
 	{
 		//PK
@@ -7,9 +9,9 @@ package com.idwa.ds.disa.vo
 		//FK
 		public var servicioId:int;
 		//FK - ( Sucursal )
-		public var salidaSucusalId:int;
+		public var salidaSucursalId:int;
 		//FK - ( Sucursal )
-		public var entradaSucusalId:int;
+		public var entradaSucursalId:int;
 		//FK - ( Usuario )
 		public var ordenaId:int;
 		//FK - ( Usuario, Default 0 )
