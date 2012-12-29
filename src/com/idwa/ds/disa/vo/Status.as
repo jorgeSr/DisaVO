@@ -16,6 +16,7 @@ package com.idwa.ds.disa.vo
 		 * PREP: Presupuestado
 		 * EREF: En Espera de Refacciones
 		 * RREF: Refacciones Recibidas
+		 * REPA: Reparado
 		 * ACAL: Aprovado por Calidad
 		 * RCAL: Rechazado por Calidad
 		 * LREC: Listo pata Recolección
